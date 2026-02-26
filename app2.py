@@ -4,6 +4,9 @@ import numpy as np
 import joblib
 from PIL import Image
 from skimage.feature import hog
+import cv2
+import joblib
+from skimage.feature import hog
 
 # ---- LOAD MODEL ----
 model = joblib.load("best_logistic_model2.pkl")
